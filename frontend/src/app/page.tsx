@@ -163,6 +163,7 @@ export default function Home() {
                     </span>
                     .
                   </motion.h1>
+                </motion.div>
 
                 {/* Quiz Configuration Panel */}
                 <motion.div
