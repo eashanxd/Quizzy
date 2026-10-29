@@ -22,9 +22,6 @@ export function Header() {
               <span className="font-semibold text-lg tracking-tight text-foreground">
                 Quizzy
               </span>
-              <span className="rounded-md bg-accent px-1.5 py-0.5 font-mono text-[10px] font-semibold text-accent-foreground">
-                v0.1
-              </span>
             </div>
             <span className="text-[11px] text-muted-foreground hidden sm:block">
               Active Recall & Spaced Repetition
