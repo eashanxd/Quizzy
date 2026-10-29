@@ -28,8 +28,10 @@ def create_app(config_name: str = None) -> Flask:
     # --- CORS ---
     CORS(
         app,
-        origins=app.config["CORS_ORIGINS"],
-        supports_credentials=False,
+        origins=[
+            "http://localhost:3000",
+            "https://quizzy-ochre.vercel.app",
+        ],
     )
 
     # --- Session store (disk-backed, not a bare global dict) ---
