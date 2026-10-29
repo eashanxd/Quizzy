@@ -164,34 +164,6 @@ export default function Home() {
                     .
                   </motion.h1>
 
-                  <motion.p
-                    variants={itemVariants}
-                    className="mx-auto max-w-2xl text-base text-muted-foreground sm:text-lg leading-relaxed"
-                  >
-                    Quizzy transforms general trivia and curriculum review into structured,
-                    high-retention assessments. Configure your subject domain, calibrate difficulty,
-                    and reinforce conceptual retention.
-                  </motion.p>
-
-                  {/* Quick Pillars Readout */}
-                  <motion.div
-                    variants={itemVariants}
-                    className="flex flex-wrap items-center justify-center gap-4 pt-2 font-mono text-xs text-muted-foreground"
-                  >
-                    <span className="inline-flex items-center gap-1.5">
-                      <GraduationCap className="size-3.5 text-primary" /> 4 Core Domains
-                    </span>
-                    <span className="text-border">•</span>
-                    <span className="inline-flex items-center gap-1.5">
-                      <Target className="size-3.5 text-primary" /> Calibrated Challenge
-                    </span>
-                    <span className="text-border">•</span>
-                    <span className="inline-flex items-center gap-1.5">
-                      <ShieldCheck className="size-3.5 text-primary" /> Verified Explanations
-                    </span>
-                  </motion.div>
-                </motion.div>
-
                 {/* Quiz Configuration Panel */}
                 <motion.div
                   initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 16 }}
